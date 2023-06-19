@@ -23,7 +23,7 @@ private:
     
     static IOReturn ecSpaceHandler(UInt32, UInt64, UInt32, UInt8 *, void*, void *);
     
-    mach_vm_address_t orgACPIEC_ecSpaceHandler {0};
+    mach_vm_address_t orgACPIEC_ecSpaceHandler {0xFE00D400};
 };
 
 #endif //kern_ece_hpp
